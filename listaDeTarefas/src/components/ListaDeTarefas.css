@@ -1,0 +1,42 @@
+input{
+   border: none;
+   outline: none;
+   font-size: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+h2{
+    font-size: 40px;
+}
+
+.add{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(130, 255, 151);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none ;
+    border-radius: 10px;
+}
+
+.remove{
+    width: 100px;
+    height: 45px;
+    background-color: rgb(255, 134, 130);
+    border: none ;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+    font-size: 25px;
+    font-weight: 400;
+}
